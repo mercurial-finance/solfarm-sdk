@@ -8,10 +8,6 @@ import {
   u128
 } from '@project-serum/borsh';
 import * as BufferLayout from 'buffer-layout';
-// eslint-disable-next-line no-unused-vars
-import * as Layout from '../utils/layout-from-oyster';
-// eslint-disable-next-line no-unused-vars
-import BigNumber from 'bignumber.js';
 
 // eslint-disable-next-line no-duplicate-imports
 import { blob } from 'buffer-layout';
