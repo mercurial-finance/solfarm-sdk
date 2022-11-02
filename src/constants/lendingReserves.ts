@@ -1,6 +1,21 @@
 import { NATIVE_SOL, TOKENS } from './tokens';
 
-export const LENDING_RESERVES = [
+export interface LendingInterface {
+  name: string;
+  account: string;
+  mintAddress: string;
+  liquiditySupplyTokenAccount: string;
+  liquidityFeeReceiver: string;
+  collateralTokenMint: string;
+  collateralTokenSupply: string;
+  destinationCollateralTokenAccount: string;
+  quoteTokenMint: string;
+  decimals: number;
+  visible: boolean;
+  borrowDisabled?: boolean;
+}
+
+export const LENDING_RESERVES: Array<LendingInterface> = [
   {
     name: 'USDC',
     account: 'FTkSmGsJ3ZqDSHdcnY7ejN1pWV3Ej7i88MYpZyyaqgGt',
