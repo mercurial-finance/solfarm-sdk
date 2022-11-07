@@ -1,6 +1,6 @@
 {
   "name": "@mercurial-finance/tulip-platform-sdk",
-  "version": "2.0.26",
+  "version": "2.0.27",
   "description": "Tulip Protocol SDK",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
